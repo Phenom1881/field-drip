@@ -10,7 +10,7 @@ author: Field Drip Staff
 # tips_form_url: a link to a free form (Google Forms or Tally) where readers can send a tip.
 # tips_email: an address used only for tips. It is shown on the site, so don't use a personal one.
 tips_form_url:
-tips_email:
+tips_email: collegeuniformtracker@gmail.com
 
 # Shown on the About page. Blank keeps your address off the site.
 contact_email:
