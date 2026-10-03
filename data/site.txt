@@ -1,0 +1,15 @@
+# Site settings. One "key: value" per line. Lines that start with # are notes.
+
+title: Field Drip
+tagline: Who outfits college football, tracked and sourced.
+description: Every college football apparel deal in one place: who wears Nike, Adidas, Under Armour and more, when each deal ends, and who is switching.
+author: Joseph Moore
+
+# Link to your email signup page once you have one. Blank means the alerts box points to the RSS feed.
+newsletter_url:
+
+# Shown on the About page. Blank keeps your address off the site.
+contact_email:
+
+# How many months a finished switch stays on the home page board.
+board_months: 18
