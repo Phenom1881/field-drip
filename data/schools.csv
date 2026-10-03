@@ -1,0 +1,150 @@
+id,name,conference
+# ACC
+boston-college,Boston College,ACC
+california,California,ACC
+clemson,Clemson,ACC
+duke,Duke,ACC
+florida-state,Florida State,ACC
+georgia-tech,Georgia Tech,ACC
+louisville,Louisville,ACC
+miami,Miami,ACC
+nc-state,NC State,ACC
+north-carolina,North Carolina,ACC
+pittsburgh,Pittsburgh,ACC
+smu,SMU,ACC
+stanford,Stanford,ACC
+syracuse,Syracuse,ACC
+virginia,Virginia,ACC
+virginia-tech,Virginia Tech,ACC
+wake-forest,Wake Forest,ACC
+# Big 12
+arizona,Arizona,Big 12
+arizona-state,Arizona State,Big 12
+baylor,Baylor,Big 12
+byu,BYU,Big 12
+cincinnati,Cincinnati,Big 12
+colorado,Colorado,Big 12
+houston,Houston,Big 12
+iowa-state,Iowa State,Big 12
+kansas,Kansas,Big 12
+kansas-state,Kansas State,Big 12
+oklahoma-state,Oklahoma State,Big 12
+tcu,TCU,Big 12
+texas-tech,Texas Tech,Big 12
+ucf,UCF,Big 12
+utah,Utah,Big 12
+west-virginia,West Virginia,Big 12
+# Big Ten
+illinois,Illinois,Big Ten
+indiana,Indiana,Big Ten
+iowa,Iowa,Big Ten
+maryland,Maryland,Big Ten
+michigan,Michigan,Big Ten
+michigan-state,Michigan State,Big Ten
+minnesota,Minnesota,Big Ten
+nebraska,Nebraska,Big Ten
+northwestern,Northwestern,Big Ten
+ohio-state,Ohio State,Big Ten
+oregon,Oregon,Big Ten
+penn-state,Penn State,Big Ten
+purdue,Purdue,Big Ten
+rutgers,Rutgers,Big Ten
+ucla,UCLA,Big Ten
+usc,USC,Big Ten
+washington,Washington,Big Ten
+wisconsin,Wisconsin,Big Ten
+# SEC
+alabama,Alabama,SEC
+arkansas,Arkansas,SEC
+auburn,Auburn,SEC
+florida,Florida,SEC
+georgia,Georgia,SEC
+kentucky,Kentucky,SEC
+lsu,LSU,SEC
+mississippi-state,Mississippi State,SEC
+missouri,Missouri,SEC
+oklahoma,Oklahoma,SEC
+ole-miss,Ole Miss,SEC
+south-carolina,South Carolina,SEC
+tennessee,Tennessee,SEC
+texas,Texas,SEC
+texas-am,Texas A&M,SEC
+vanderbilt,Vanderbilt,SEC
+# Pac-12 (football members; Gonzaga doesn't play football)
+boise-state,Boise State,Pac-12
+colorado-state,Colorado State,Pac-12
+fresno-state,Fresno State,Pac-12
+oregon-state,Oregon State,Pac-12
+san-diego-state,San Diego State,Pac-12
+texas-state,Texas State,Pac-12
+utah-state,Utah State,Pac-12
+washington-state,Washington State,Pac-12
+# American (football members; Wichita State doesn't play football)
+army,Army,American
+charlotte,Charlotte,American
+east-carolina,East Carolina,American
+florida-atlantic,Florida Atlantic,American
+memphis,Memphis,American
+navy,Navy,American
+north-texas,North Texas,American
+rice,Rice,American
+south-florida,South Florida,American
+temple,Temple,American
+tulane,Tulane,American
+tulsa,Tulsa,American
+uab,UAB,American
+utsa,UTSA,American
+# Sun Belt
+app-state,App State,Sun Belt
+arkansas-state,Arkansas State,Sun Belt
+coastal-carolina,Coastal Carolina,Sun Belt
+georgia-southern,Georgia Southern,Sun Belt
+georgia-state,Georgia State,Sun Belt
+james-madison,James Madison,Sun Belt
+louisiana,Louisiana,Sun Belt
+louisiana-tech,Louisiana Tech,Sun Belt
+marshall,Marshall,Sun Belt
+old-dominion,Old Dominion,Sun Belt
+south-alabama,South Alabama,Sun Belt
+southern-miss,Southern Miss,Sun Belt
+troy,Troy,Sun Belt
+ulm,ULM,Sun Belt
+# Conference USA
+delaware,Delaware,Conference USA
+fiu,FIU,Conference USA
+jacksonville-state,Jacksonville State,Conference USA
+kennesaw-state,Kennesaw State,Conference USA
+liberty,Liberty,Conference USA
+middle-tennessee,Middle Tennessee,Conference USA
+missouri-state,Missouri State,Conference USA
+new-mexico-state,New Mexico State,Conference USA
+sam-houston,Sam Houston,Conference USA
+wku,WKU,Conference USA
+# MAC (Sacramento State joined as a football-only member in 2026; Northern Illinois football moved to the Mountain West)
+akron,Akron,MAC
+ball-state,Ball State,MAC
+bowling-green,Bowling Green,MAC
+buffalo,Buffalo,MAC
+central-michigan,Central Michigan,MAC
+eastern-michigan,Eastern Michigan,MAC
+kent-state,Kent State,MAC
+miami-oh,Miami (OH),MAC
+ohio,Ohio,MAC
+sacramento-state,Sacramento State,MAC
+toledo,Toledo,MAC
+umass,UMass,MAC
+western-michigan,Western Michigan,MAC
+# Mountain West
+air-force,Air Force,Mountain West
+hawaii,Hawaii,Mountain West
+nevada,Nevada,Mountain West
+new-mexico,New Mexico,Mountain West
+north-dakota-state,North Dakota State,Mountain West
+northern-illinois,Northern Illinois,Mountain West
+san-jose-state,San Jose State,Mountain West
+unlv,UNLV,Mountain West
+utep,UTEP,Mountain West
+wyoming,Wyoming,Mountain West
+# Independents
+notre-dame,Notre Dame,Independents
+uconn,UConn,Independents

@@ -1,0 +1,188 @@
+id,school,brand,sub_brand,start,end,status,value,note,updated
+# A current or upcoming deal stays off the site until data/reports.csv has a source row for it.
+# Every FBS program has a sourced deal as of Oct 3, 2026. New rows stay off the site until they have a source.
+
+# ACC
+boston-college-under-armour,boston-college,Under Armour,,2009,2021,ended,,,2026-10-03
+boston-college-new-balance,boston-college,New Balance,,2021-06-01,2031,in effect,"10 years, $45M",Covers 30 of 31 sports. Football's outfitter was announced separately.,2026-10-03
+california-under-armour,california,Under Armour,,,2023,ended,,,2026-10-03
+california-nike,california,Nike,,2023-07-01,,in effect,Three years as announced in 2023,The 2023 deal was announced for three years. A renewal hasn't been confirmed here yet.,2026-10-03
+clemson-nike,clemson,Nike,,,2028,in effect,"10-year extension from 2018, $58M",,2026-10-03
+duke-nike,duke,Nike,,2016,2027,in effect,12 years from 2016,,2026-10-03
+florida-state-nike,florida-state,Nike,,,,in effect,"10 years, up to $34M",Reported in 2005 as a 10-year contract. The current term hasn't been confirmed here.,2026-10-03
+georgia-tech-adidas,georgia-tech,Adidas,,,2026-06-30,ended,,,2026-10-03
+georgia-tech-under-armour,georgia-tech,Under Armour,,2026-07-01,,in effect,,Switched from Adidas. The deal includes NIL opportunities for athletes.,2026-10-03
+louisville-adidas,louisville,Adidas,,,2028,in effect,"10 years, $160M",Partnership runs through the 2027-28 school year.,2026-10-03
+miami-nike-1987,miami,Nike,,1987,2015,ended,,,2026-10-03
+miami-adidas,miami,Adidas,,2015,2027-06-30,in effect,"12 years, reported above $90M",,2026-10-03
+miami-nike-2027,miami,Nike,,2027-07-01,,agreed,"10 years, reported above $200M",Adidas made a counteroffer but did not match Nike.,2026-10-03
+nc-state-adidas,nc-state,Adidas,,2012-04,,in effect,,The last confirmed extension ran from July 2016 to June 2022. The current term hasn't been confirmed here.,2026-10-03
+north-carolina-nike,north-carolina,Nike,Jordan,2018,2028-06-30,in effect,"10 years, about $6.27M a year",,2026-10-03
+pittsburgh-nike,pittsburgh,Nike,,,,in effect,,An extension announced in 2023 ran through 2026. A newer deal hasn't been confirmed here yet.,2026-10-03
+smu-nike,smu,Nike,,2012,,in effect,,,2026-10-03
+stanford-nike,stanford,Nike,,,,in effect,,Nike partner since at least 2001. The current term hasn't been confirmed here.,2026-10-03
+syracuse-nike,syracuse,Nike,,,,in effect,,Extended in June 2019.,2026-10-03
+virginia-nike,virginia,Nike,,,,in effect,,A 10-year extension ran through June 2025. The current deal hasn't been confirmed here.,2026-10-03
+virginia-tech-nike,virginia-tech,Nike,,,,in effect,,"Its main Nike contract expired June 30, 2025. The current arrangement hasn't been confirmed here.",2026-10-03
+wake-forest-nike,wake-forest,Nike,,,,in effect,,Nike partnership confirmed in December 2021. The term hasn't been published.,2026-10-03
+
+# Big 12
+arizona-nike,arizona,Nike,,2025,2033,in effect,"8 years, $44M",Arizona calls it the largest publicly known Nike partnership in the Big 12.,2026-10-03
+arizona-state-adidas,arizona-state,Adidas,,2015-07,,in effect,,"An eight-year, $33.8M deal ran through 2022-23. The current term hasn't been published.",2026-10-03
+baylor-nike,baylor,Nike,,,,in effect,,Nike outfits all 19 Baylor sports. The term hasn't been published.,2026-10-03
+byu-nike,byu,Nike,,2019,,in effect,"7 years, annual value more than double the prior deal",A seven-year deal ran through the 2025-26 season. The current term hasn't been confirmed here.,2026-10-03
+cincinnati-under-armour,cincinnati,Under Armour,,,2023-06-30,ended,,,2026-10-03
+cincinnati-nike,cincinnati,Nike,,2023-07-01,,in effect,,Jordan Brand outfits men's and women's basketball.,2026-10-03
+colorado-nike,colorado,Nike,,,,in effect,10 years,"Colorado's fourth Nike contract, signed in 2021, ran through 2025. The current term hasn't been confirmed here.",2026-10-03
+houston-nike,houston,Nike,Jordan,,,in effect,,Jordan Brand has outfitted Houston football since 2020. The term hasn't been published.,2026-10-03
+iowa-state-nike,iowa-state,Nike,,,,in effect,,Nike partner as of 2018. The current term hasn't been confirmed here.,2026-10-03
+kansas-adidas,kansas,Adidas,,,2031,in effect,Extension through 2031,Extended in April 2019. Covers all 18 Jayhawks teams.,2026-10-03
+kansas-state-nike,kansas-state,Nike,,2024-07-01,2027-07-01,in effect,"3 years, with an option to extend to 2029","Nike discounts K-State's gear 66.6% on up to $4.2M a year and pays 14% royalties, 5% on footwear.",2026-10-03
+oklahoma-state-nike,oklahoma-state,Nike,,,,in effect,,Oklahoma State moved to new Nike uniforms in 2023. The deal's term hasn't been published.,2026-10-03
+tcu-nike,tcu,Nike,,,,in effect,,TCU football unveiled new Nike uniforms in June 2024. The deal's term hasn't been published.,2026-10-03
+texas-tech-adidas,texas-tech,Adidas,,2024-07-01,2034,in effect,10 years,,2026-10-03
+ucf-nike,ucf,Nike,,,2029,in effect,Five-year extension announced in October 2023,Nike has outfitted UCF since 2010.,2026-10-03
+utah-under-armour,utah,Under Armour,,2008,2027-06-30,in effect,Last extension reported at $65M,Ends after the 2026-27 school year.,2026-10-03
+utah-adidas,utah,Adidas,,2027-07-01,2034-06-30,official,7 years,Includes NIL opportunities through Adidas's NIL Ambassador Network.,2026-10-03
+west-virginia-nike,west-virginia,Nike,,,,in effect,Extension through June 2026,An extension ran through June 2026. The current term hasn't been confirmed here.,2026-10-03
+
+# Big Ten
+illinois-nike,illinois,Nike,,,2033-06-30,in effect,Seven-year extension announced in September 2026,Covers all 21 varsity teams. Replaces a 10-year agreement signed in 2016.,2026-10-03
+indiana-adidas,indiana,Adidas,,,,in effect,,,2026-10-03
+iowa-nike,iowa,Nike,,2004,,in effect,"Extension signed in August 2016, $350,000 a year plus $3M to $3.6M a year in product","Nike partner since 2004. The last published extension, signed in 2016, ran through the 2025-26 season.",2026-10-03
+maryland-under-armour,maryland,Under Armour,,,2036,in effect,12-year extension announced in 2024,Includes an NIL brand ambassador program.,2026-10-03
+michigan-nike,michigan,Nike,Jordan,2016-08,2027,in effect,Option to extend to 2031,,2026-10-03
+michigan-state-nike,michigan-state,Nike,,,2027,in effect,"Extension through 2027, about $700,000 a year, up from $550,000",Figures come from records obtained by 247Sports.,2026-10-03
+minnesota-nike,minnesota,Nike,,,,in effect,,Minnesota football moved to new Nike jerseys in 2024. The deal's term hasn't been published.,2026-10-03
+nebraska-adidas,nebraska,Adidas,,,,in effect,,,2026-10-03
+northwestern-under-armour,northwestern,Under Armour,,2012,,in effect,"Multiyear partnership, extended in March 2025",Under Armour has outfitted Northwestern since 2012. Extended in March 2025.,2026-10-03
+ohio-state-nike,ohio-state,Nike,,2018-07,2033,in effect,"15 years, $252M","Reported in 2016, extending a deal that was set to end in July 2018.",2026-10-03
+oregon-nike,oregon,Nike,,2017-07-01,2028-05-31,in effect,11 years,An 11-year agreement approved by the university's trustees.,2026-10-03
+penn-state-russell,penn-state,Russell Athletic,,,1993,ended,,,2026-10-03
+penn-state-nike,penn-state,Nike,,1993,2026-06-30,ended,,Began the same year Penn State joined the Big Ten.,2026-10-03
+penn-state-adidas,penn-state,Adidas,,2026-07-01,2036-06-30,in effect,"10 years, reported about $300M",10-year deal ends a Nike run that began in 1993.,2026-10-03
+purdue-nike,purdue,Nike,,,,in effect,,The deal's term hasn't been published.,2026-10-03
+rutgers-adidas,rutgers,Adidas,,,2025-06,ended,,,2026-10-03
+rutgers-nike,rutgers,Nike,,2025-07,,in effect,,Multi-year deal with BSN Sports as the supplier.,2026-10-03
+ucla-nike,ucla,Nike,Jordan,2021-07,2027,in effect,Six years,Football has worn Jordan Brand since July 2021.,2026-10-03
+usc-nike,usc,Nike,,,2036,in effect,10-year extension announced July 2026,The extension includes an NIL partnership.,2026-10-03
+washington-adidas,washington,Adidas,,,,in effect,,,2026-10-03
+wisconsin-under-armour,wisconsin,Under Armour,,,2033,in effect,"10 years including a three-year mutual option, $104.5M minimum","Runs through 2033, with a three-year mutual option through 2036. Includes NIL funding from Under Armour.",2026-10-03
+
+# SEC
+alabama-nike,alabama,Nike,,,,in effect,,An all-sports Nike partner for three decades. The current term hasn't been published.,2026-10-03
+arkansas-nike,arkansas,Nike,,2010-07,,in effect,5 years,"A 2010 deal ran five years, and a 2014 report still describes the partnership. The current term hasn't been confirmed here.",2026-10-03
+auburn-under-armour,auburn,Under Armour,,,2025-06,ended,,,2026-10-03
+auburn-nike,auburn,Nike,,2025-07,2035,in effect,10 years,Ended an 18-year run with Under Armour.,2026-10-03
+florida-nike,florida,Nike,Jordan,,,in effect,,Football and basketball moved to Jordan Brand in 2018.,2026-10-03
+georgia-nike,georgia,Nike,,,,in effect,,The last deal found here was reported in 2015. The current term hasn't been confirmed.,2026-10-03
+kentucky-nike,kentucky,Nike,,,,in effect,,An eight-year extension signed in 2013 ran through 2025. A newer deal hasn't been confirmed here.,2026-10-03
+lsu-nike,lsu,Nike,,,2036,in effect,,Extension adds Nike's Blue Ribbon Elite NIL program.,2026-10-03
+mississippi-state-adidas,mississippi-state,Adidas,,2009,,in effect,,A seven-year extension signed in 2014 ran through 2020. The current term hasn't been confirmed here.,2026-10-03
+missouri-nike,missouri,Nike,,,,in effect,,A Nike contract ran through 2021. The current term hasn't been confirmed here.,2026-10-03
+oklahoma-nike,oklahoma,Nike,Jordan,2018,2028,in effect,Up to $70M over 11 years,,2026-10-03
+ole-miss-nike,ole-miss,Nike,,1999,2027-06-30,in effect,,"Extended in 2015 for 12 years, through the 2026-27 school year.",2026-10-03
+ole-miss-adidas,ole-miss,Adidas,,2027-07-01,,reported,,Not announced by the school or Adidas yet.,2026-10-03
+south-carolina-under-armour,south-carolina,Under Armour,,2007,2026-06-30,ended,,,2026-10-03
+south-carolina-nike,south-carolina,Nike,,2026-07-01,2036,in effect,"10 years: $70M product, $5M cash, $2.5M extra product, 15% royalty",Nike flipped the Gamecocks from Under Armour.,2026-10-03
+tennessee-adidas-1995,tennessee,Adidas,,1995,2015-06-30,ended,,Tennessee won the 1998 national title in Adidas.,2026-10-03
+tennessee-nike,tennessee,Nike,,2015-07-01,2026-06-30,ended,About $4M a year when signed in 2014,Signed in January 2014 and later amended to run through June 2026.,2026-10-03
+tennessee-adidas-2026,tennessee,Adidas,,2026-07-01,2036-06-30,in effect,"10 years, reported about $20M a year",Back with Adidas on a 10-year deal that includes NIL investment.,2026-10-03
+texas-nike,texas,Nike,,,2030,in effect,"15 years, $250M, signed in 2015",Nike partner since 2000.,2026-10-03
+texas-am-adidas,texas-am,Adidas,,2022-07-01,2027-06-30,in effect,5 years,A renewal hasn't been confirmed here yet.,2026-10-03
+vanderbilt-nike,vanderbilt,Nike,,,,in effect,Extension through 2023,A 2015 extension ran through 2023. The current term hasn't been confirmed here.,2026-10-03
+
+# Pac-12
+boise-state-nike,boise-state,Nike,,,,in effect,"Six-year extension, $12.16M total",A 2018 extension ran through 2024-25. The current term hasn't been confirmed here.,2026-10-03
+colorado-state-under-armour,colorado-state,Under Armour,,,2026,ended,,,2026-10-03
+colorado-state-adidas,colorado-state,Adidas,,2026-08-04,,in effect,Multi-year,Includes NIL opportunities and expanded retail.,2026-10-03
+fresno-state-adidas,fresno-state,Adidas,,2020-06-01,2026,in effect,6 years,A six-year deal that runs through the 2026 season.,2026-10-03
+oregon-state-nike,oregon-state,Nike,,,,in effect,,Oregon State worked with Nike on its 2013 rebrand. The current term hasn't been confirmed here.,2026-10-03
+san-diego-state-nike,san-diego-state,Nike,,2017,,in effect,Long-term extension,A 2017 extension ran through the 2023-24 season. The current term hasn't been confirmed here.,2026-10-03
+texas-state-adidas,texas-state,Adidas,,2010,,in effect,Extension signed in 2022,"A 2022 extension ran through June 2025, with a two-year school option. The current term hasn't been confirmed here.",2026-10-03
+utah-state-nike,utah-state,Nike,,2006,,in effect,,"Nike partner since 2006, and Nike led a 2012 rebrand. The current term hasn't been confirmed here.",2026-10-03
+washington-state-nike,washington-state,Nike,,2009,2028-06,in effect,Extension signed in 2025,Nike partner since 2009.,2026-10-03
+
+# American
+army-nike,army,Nike,,,,in effect,10-year extension,Extended in December 2025.,2026-10-03
+charlotte-nike,charlotte,Nike,,,,in effect,,BSN Sports supplies the Nike product. The current term hasn't been published.,2026-10-03
+east-carolina-adidas,east-carolina,Adidas,,2016-07,,in effect,Multi-year extension signed in 2026,"A 10-year deal ran through 2025-26. Extended in April 2026, with BSN Sports as distributor.",2026-10-03
+florida-atlantic-adidas,florida-atlantic,Adidas,,2010,,in effect,,Announced in January 2010. The current term hasn't been published.,2026-10-03
+memphis-nike,memphis,Nike,,2008,,in effect,"Five-year extension, product allotment from $2.05M to $2.25M a year",A 2018 extension ran through 2022-23. The current term hasn't been confirmed here.,2026-10-03
+navy-under-armour,navy,Under Armour,,2014,,in effect,Multiyear extension signed in 2024,Under Armour has outfitted Navy since 2014. Extended in December 2024.,2026-10-03
+north-texas-nike,north-texas,Nike,,2017,,in effect,Three-year extension signed in 2023,"A three-year extension took effect June 1, 2023. The current term hasn't been confirmed here.",2026-10-03
+rice-adidas,rice,Adidas,,,2026,ended,,,2026-10-03
+rice-nike,rice,Nike,,2026,,in effect,,Rice moved from Adidas to Nike for the 2026 season.,2026-10-03
+south-florida-adidas,south-florida,Adidas,,2017-12,,in effect,Eight years,"An eight-year deal announced in December 2017 ran through the 2025-26 season. USF's athletics site still listed Adidas as a partner in April 2026, and the current term hasn't been confirmed here.",2026-10-03
+temple-nike,temple,Nike,,2020-07,,in effect,"Three-year deal from 2020, extended in 2023",Extended in June 2023 with details not disclosed. The current term hasn't been published.,2026-10-03
+tulane-nike,tulane,Nike,,,,in effect,Multi-year,Extended in March 2025 with BSN Sports. Covers all 17 programs.,2026-10-03
+tulsa-adidas,tulsa,Adidas,,2016-07-01,,in effect,Eight-year deal announced in 2016,An eight-year deal ran through 2023-24. A 2024 report still names Adidas as Tulsa's supplier. The current term hasn't been published.,2026-10-03
+uab-under-armour,uab,Under Armour,,2016,,in effect,Multi-year,A multi-year deal announced in September 2016. The current term hasn't been published.,2026-10-03
+utsa-adidas,utsa,Adidas,,2013,2025,ended,,Adidas outfitted UTSA from 2013 to 2025.,2026-10-03
+utsa-nike,utsa,Nike,,2025-06-02,,in effect,Six-year initial agreement,"Announced in October 2024, with Game One as the dealer. Began June 2, 2025.",2026-10-03
+
+# Sun Belt
+app-state-nike,app-state,Nike,,,2030,in effect,Five-year extension,"Extended in February 2025 with BSN Sports, through the end of 2030.",2026-10-03
+arkansas-state-adidas,arkansas-state,Adidas,,,,in effect,,A 2012 athletics page names adidas as the official outfitter. The current term hasn't been published.,2026-10-03
+coastal-carolina-under-armour,coastal-carolina,Under Armour,,2016-07-01,,in effect,Multi-year agreement,Announced in May 2016 with no end date published. The current term hasn't been confirmed here.,2026-10-03
+georgia-southern-adidas,georgia-southern,Adidas,,,,in effect,Seven-year extension announced in 2016,The announced term ran through the 2023-24 season. The current term hasn't been published.,2026-10-03
+georgia-state-under-armour,georgia-state,Under Armour,,2017-07-01,,in effect,Multi-year agreement,Announced in October 2016 with no end date published. The current term hasn't been published.,2026-10-03
+james-madison-nike,james-madison,Nike,,2019-06-01,,in effect,Five-year agreement,"A five-year term began June 1, 2019, through BSN Sports. The current term hasn't been published.",2026-10-03
+louisiana-adidas,louisiana,Adidas,,,,in effect,"Two-year extension, $1.1 million in additional value",A 2022 extension ran through the 2023-24 school year. The current term hasn't been confirmed here.,2026-10-03
+louisiana-tech-adidas,louisiana-tech,Adidas,,,,in effect,Extension announced in May 2026,"Extended in May 2026, adding Game One. Covers 16 sports.",2026-10-03
+marshall-nike,marshall,Nike,,,,in effect,Extension announced in February 2023,Extended in February 2023 without published dates or value.,2026-10-03
+old-dominion-under-armour,old-dominion,Under Armour,,2015-09-01,,in effect,"Five-year deal signed in 2015, $395,000 in 2015-16",Under Armour has outfitted ODU since 2015. The current term hasn't been published.,2026-10-03
+south-alabama-nike,south-alabama,Nike,,,2018-05,ended,,Replaced by Adidas in June 2018.,2026-10-03
+south-alabama-adidas,south-alabama,Adidas,,2018-06-01,2030-06,in effect,"Seven-year deal from 2018, extended in 2024",Adidas replaced Nike in 2018. Extended in November 2024 through June 2030.,2026-10-03
+southern-miss-adidas,southern-miss,Adidas,,2018-07-01,,in effect,Multi-year; SGB reports eight years,"Sources differ on whether the deal began in 2017 or 2018. It ran through 2025, and the current term hasn't been confirmed here.",2026-10-03
+troy-adidas,troy,Adidas,,,2028,in effect,Five-year extension signed in 2023,Extended in May 2023 through the 2027-28 school year. Adidas has outfitted Troy for two decades.,2026-10-03
+ulm-adidas,ulm,Adidas,,,,in effect,,The deal's term hasn't been published.,2026-10-03
+
+# Conference USA
+delaware-adidas,delaware,Adidas,,2026,2031,in effect,Five-year extension starting 2026-27,The extension adds BSN Sports.,2026-10-03
+fiu-adidas,fiu,Adidas,,,,in effect,,Adidas made FIU football's 2024 uniforms. The contract term hasn't been published.,2026-10-03
+jacksonville-state-adidas,jacksonville-state,Adidas,,2017-06,,in effect,Five-year extension signed in 2017,A 2017 extension ran through the 2021-22 season. The current term hasn't been confirmed here.,2026-10-03
+kennesaw-state-adidas,kennesaw-state,Adidas,,,,in effect,Extension announced in April 2024,"Extended in 2016 and again in April 2024, through June 30, 2026. The current term hasn't been confirmed here.",2026-10-03
+liberty-nike,liberty,Nike,,,,in effect,Contract extension signed in 2017,A 2017 extension ran through 2024. The current term hasn't been confirmed here.,2026-10-03
+middle-tennessee-nike,middle-tennessee,Nike,,2014,,in effect,Long-term extension signed in March 2026,Nike partner since a five-year deal in 2014. Extended in March 2026 with BSN Sports.,2026-10-03
+missouri-state-adidas,missouri-state,Adidas,,2026-07-01,2031-06-30,in effect,"Five years, with two one-year renewal options","Renewed in March 2026, with two one-year renewal options.",2026-10-03
+new-mexico-state-under-armour,new-mexico-state,Under Armour,,2016-07-01,2026-06-30,ended,Five-year extension signed in 2021,"Outfitted all 16 sports from July 2016. A 2021 extension ran through June 30, 2026.",2026-10-03
+new-mexico-state-adidas,new-mexico-state,Adidas,,2026-07-01,,in effect,Multi-year; length not published,"Replaced Under Armour on July 1, 2026, with Game One as the dealer.",2026-10-03
+sam-houston-under-armour,sam-houston,Under Armour,,2020-06-01,2027,in effect,Seven years,"A seven-year deal that began June 1, 2020.",2026-10-03
+wku-nike,wku,Nike,,2017-07-01,,in effect,Multi-year extension signed in July 2026,Nike partner since July 2017. Extended in July 2026 with BSN Sports.,2026-10-03
+
+# MAC
+akron-nike,akron,Nike,,,,in effect,,New multi-year deal announced in March 2026 with BSN Sports.,2026-10-03
+ball-state-nike,ball-state,Nike,,2017-09,,in effect,Five years,The 2017 agreement ran through August 2022. The current term hasn't been confirmed here.,2026-10-03
+bowling-green-nike,bowling-green,Nike,,2020-07-01,,in effect,Multi-year,Extension announced in July 2020 with no end date given. The current term hasn't been confirmed here.,2026-10-03
+buffalo-nike,buffalo,Nike,,2025-07-01,2030-06-30,in effect,Five years,Renewed in July 2025.,2026-10-03
+central-michigan-adidas,central-michigan,Adidas,,,,in effect,,Extension announced in October 2018.,2026-10-03
+eastern-michigan-adidas,eastern-michigan,Adidas,,2015,,in effect,Seven-year contract signed in 2015,"The 2015 contract ran through June 30, 2022. The current term hasn't been confirmed here.",2026-10-03
+kent-state-under-armour,kent-state,Under Armour,,2015,,in effect,Multi-year,"Under Armour's first all-school partner in the MAC, announced in November 2015. The current term hasn't been confirmed here.",2026-10-03
+miami-oh-adidas,miami-oh,Adidas,,,,in effect,,Extended in August 2026 with BSN Sports added.,2026-10-03
+ohio-adidas,ohio,Adidas,,,2027-06-30,in effect,Multi-year extension,"Extended in July 2025, adding Game One.",2026-10-03
+toledo-nike,toledo,Nike,,2017,2028-05-31,in effect,Multi-year extension,Nike partner since 2017. Extended in February 2023.,2026-10-03
+umass-adidas,umass,Adidas,,2018,2028,in effect,10 years,A 10-year extension announced in October 2018. Covers all 21 varsity teams.,2026-10-03
+sacramento-state-adidas,sacramento-state,Adidas,,2013,,ended,One-year program through Sport Chalet,An Adidas apparel program run by Sport Chalet covered all 21 sports in 2013.,2026-10-03
+sacramento-state-nike,sacramento-state,Nike,,,,in effect,,The term hasn't been published.,2026-10-03
+western-michigan-adidas,western-michigan,Adidas,,,,in effect,,Extended in June 2021.,2026-10-03
+
+# Mountain West
+air-force-nike,air-force,Nike,,,,in effect,Five-year extension signed in 2023,,2026-10-03
+hawaii-under-armour,hawaii,Under Armour,,2008,2021,ended,Multi-year,Outfitted Hawaii from 2008 until Adidas took over in 2021.,2026-10-03
+hawaii-adidas,hawaii,Adidas,,2021,2025,ended,Four years,A four-year deal that replaced Under Armour.,2026-10-03
+hawaii-nike,hawaii,Nike,,2025-07-01,2032-06-30,in effect,Seven years,"Replaced Adidas, with BSN Sports as the dealer.",2026-10-03
+nevada-adidas,nevada,Adidas,,,2030,in effect,,Extended in July 2025.,2026-10-03
+new-mexico-nike,new-mexico,Nike,,,2027,in effect,Multi-year extension,Extended in October 2023 through the 2026-27 school year.,2026-10-03
+north-dakota-state-under-armour,north-dakota-state,Under Armour,,2025,,in effect,,Agreement announced in September 2024.,2026-10-03
+northern-illinois-adidas,northern-illinois,Adidas,,,,in effect,Multi-year renewal with a three-year option,"A 2019 renewal ran through June 2026, with a three-year option through 2029. Whether the option was used hasn't been confirmed here.",2026-10-03
+san-jose-state-adidas,san-jose-state,Adidas,,2017-07-01,2023,ended,Six years,San Jose State was the first Mountain West school with Adidas.,2026-10-03
+san-jose-state-under-armour,san-jose-state,Under Armour,,,,in effect,,Replaced Adidas after the 2022-23 school year. The term hasn't been published.,2026-10-03
+unlv-nike,unlv,Nike,,,,in effect,,Extended in March 2025.,2026-10-03
+utep-nike,utep,Nike,,2004,2023,ended,,"Nike outfitted UTEP football from 2004, later all sports. Adidas took over for the 2023-24 season.",2026-10-03
+utep-adidas,utep,Adidas,,2023,,in effect,Five years,"Began with the 2023-24 season, replacing Nike. Game One is the dealer.",2026-10-03
+wyoming-adidas,wyoming,Adidas,,2018,,in effect,Eight years,The eight-year deal ran through the end of the 2025-26 season. The current term hasn't been confirmed here.,2026-10-03
+
+# Independents
+notre-dame-under-armour,notre-dame,Under Armour,,2024,2034,in effect,"10 years, about $10M a year",Extension announced in August 2023.,2026-10-03
+uconn-nike,uconn,Nike,,,,in effect,,The last confirmed renewal was in 2017.,2026-10-03
