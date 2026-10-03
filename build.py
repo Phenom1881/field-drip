@@ -743,7 +743,7 @@ def layout(ctx: Ctx, *, path: str, title: str, description: str, body: str,
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<div class="utility"><div class="wrap utility-in"><span>Updated {long_date(ctx.today)}</span><span>FBS apparel deals, tracked and sourced</span></div></div>
+<div class="utility"><div class="wrap utility-in"><span>Updated {long_date(ctx.today)}</span><span>{esc(ctx.site.config.get("strapline", ""))}</span></div></div>
 <header class="masthead">
 <div class="wrap masthead-in">
 <a class="brand-link" href="{ctx.u('')}">{wordmark(ctx.title)}<span class="tagline">{esc(tagline)}</span></a>

@@ -2,6 +2,8 @@
 
 title: Field Drip
 tagline: Who outfits college football, tracked and sourced.
+# The small line in the dark bar at the very top of every page.
+strapline: Which brand every FBS program wears
 description: Every college football apparel deal in one place: who wears Nike, Adidas, Under Armour and more, when each deal ends, and who is switching.
 # The byline on every story.
 author: Field Drip Staff
