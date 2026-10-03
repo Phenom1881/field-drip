@@ -3,10 +3,14 @@
 title: Field Drip
 tagline: Who outfits college football, tracked and sourced.
 description: Every college football apparel deal in one place: who wears Nike, Adidas, Under Armour and more, when each deal ends, and who is switching.
-author: Joseph Moore
+# The byline on every story.
+author: Field Drip Staff
 
-# Link to your email signup page once you have one. Blank means the alerts box points to the RSS feed.
-newsletter_url:
+# The tip line. Fill in either or both. While both are blank, the site shows no tip button or tips page.
+# tips_form_url: a link to a free form (Google Forms or Tally) where readers can send a tip.
+# tips_email: an address used only for tips. It is shown on the site, so don't use a personal one.
+tips_form_url:
+tips_email:
 
 # Shown on the About page. Blank keeps your address off the site.
 contact_email:

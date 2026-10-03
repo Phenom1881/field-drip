@@ -39,7 +39,15 @@ lead: true
 | `lead: true` | Puts the post at the top of the home page. The newest lead post wins. |
 | `draft: true` | Keeps the post off the site until you remove it. |
 
+Every post is bylined to the `author` in `data/site.txt` (Field Drip Staff). Add an `author:` line to one post to change just that post.
+
+The easiest way to post from a browser: open the `posts` folder on GitHub, choose **Add file > Create new file**, name it like `2026-10-07-school-brand.md`, paste the block above with your own lines, write the story under it, and choose **Commit changes**. The site rebuilds in about a minute.
+
 To link to another page on the site, start the link with `~/`, like `[Ole Miss](~/schools/ole-miss/)`. That keeps links working whether the site lives at `/field-drip/` or on its own domain.
+
+## Tip line
+
+Fill in `tips_form_url`, `tips_email`, or both in `data/site.txt`. Once either one is set, the site adds a Send a tip button in the header, a tip box on the home page, and a tips page. Leave both blank and none of it shows. Use an address made just for tips, since it's shown on the site.
 
 ## Update a deal
 
@@ -50,7 +58,7 @@ Deals live in `data/deals.csv`, one row per contract.
 | `id` | A short name for the deal, lowercase with hyphens: `ole-miss-adidas`. |
 | `school` | The school's id from `data/schools.csv`. |
 | `brand` | Nike, Adidas, Under Armour, New Balance, and so on. |
-| `sub_brand` | Optional, like `Jordan`. |
+| `sub_brand` | Optional. Put `Jordan` here (with `Nike` as the brand) when the football team wears Jordan. The site lists Jordan as its own brand. |
 | `start`, `end` | `2027-07-01`, `2027-07`, or just `2027` when that's all that's known. Leave blank if unknown. |
 | `status` | One of `rumored`, `reported`, `agreed`, `official`, `in effect`, `ended`. |
 | `value` | What's been reported about length and money, like `10 years, about $300M`. |
@@ -108,7 +116,7 @@ Then open `http://localhost:8000`. Run `python build.py --check` to check the fi
 |---|---|
 | `posts/` | Stories, one Markdown file each |
 | `pages/about.md` | The About page, including the status ladder definitions |
-| `data/site.txt` | Site name, tagline, author, newsletter link, contact email |
+| `data/site.txt` | Site name, tagline, story byline, tip line, contact email |
 | `data/schools.csv` | Schools and their conferences |
 | `data/deals.csv` | Every apparel deal, past, current, and pending |
 | `data/reports.csv` | Sources for each deal |

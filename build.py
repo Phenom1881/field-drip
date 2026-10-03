@@ -223,6 +223,9 @@ class Deal:
         self.school_id = row["school"]
         self.brand = row["brand"]
         self.sub_brand = row.get("sub_brand", "")
+        # Jordan is a Nike brand, but the site lists it as its own outfitter.
+        if self.sub_brand.strip().lower() == "jordan":
+            self.brand, self.sub_brand = "Jordan", ""
         self.status = row["status"].lower()
         self.start = When(row.get("start", ""), where)
         self.end = When(row.get("end", ""), where)
@@ -673,6 +676,21 @@ def wordmark(title: str, extra_class: str = "") -> str:
     return f'<span class="wordmark {extra_class}">{esc(first)}{tail}</span>'
 
 
+def has_tip_line(ctx: Ctx) -> bool:
+    return bool(ctx.site.config.get("tips_form_url") or ctx.site.config.get("tips_email"))
+
+
+def tip_actions(ctx: Ctx, light: bool = False) -> str:
+    form = ctx.site.config.get("tips_form_url", "")
+    email = ctx.site.config.get("tips_email", "")
+    bits = []
+    if form:
+        bits.append(f'<a class="btn btn-gold" href="{esc(form)}" rel="noopener">Send a tip</a>')
+    if email:
+        bits.append(f'<a class="btn {"btn-green" if light else "btn-ghost"}" href="mailto:{esc(email)}">Email {esc(email)}</a>')
+    return "".join(bits)
+
+
 def layout(ctx: Ctx, *, path: str, title: str, description: str, body: str,
            active: str = "", og_type: str = "website", extra_head: str = "") -> str:
     full_title = ctx.title if not title else f"{ctx.title} | {title}"
@@ -691,6 +709,8 @@ def layout(ctx: Ctx, *, path: str, title: str, description: str, body: str,
         for key, label, href in nav_items
     )
     tagline = ctx.site.config.get("tagline", "")
+    tip_footer = (f'<a href="{ctx.u("tips/")}">Send a tip</a>' if has_tip_line(ctx) else "")
+    tip_button = (f'<a class="btn btn-ink" href="{ctx.u("tips/")}">Send a tip</a>' if has_tip_line(ctx) else "")
     year = ctx.today.year
     fonts = "".join(
         f'<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family={family}&amp;display=swap">'
@@ -727,7 +747,7 @@ def layout(ctx: Ctx, *, path: str, title: str, description: str, body: str,
 <header class="masthead">
 <div class="wrap masthead-in">
 <a class="brand-link" href="{ctx.u('')}">{wordmark(ctx.title)}<span class="tagline">{esc(tagline)}</span></a>
-<a class="btn btn-ink" href="{ctx.u('')}#alerts">{BELL}Get deal alerts</a>
+{tip_button}
 </div>
 <nav class="nav" aria-label="Main"><div class="wrap nav-in">{nav}</div></nav>
 </header>
@@ -744,7 +764,7 @@ def layout(ctx: Ctx, *, path: str, title: str, description: str, body: str,
 <a href="{ctx.u('about/')}#status">How we label status</a>
 <a href="{ctx.u('about/')}#corrections">Sources and corrections</a>
 <a href="{ctx.u('about/')}">About</a>
-<a href="{ctx.u('feed.xml')}">RSS feed</a>
+{tip_footer}<a href="{ctx.u('feed.xml')}">RSS feed</a>
 </nav>
 </div>
 <div class="footer-base"><div class="wrap">&copy; {year} {esc(ctx.title)}</div></div>
@@ -1032,18 +1052,11 @@ def render_home(ctx: Ctx) -> str:
 </div>
 </section>""")
 
-    newsletter = site.config.get("newsletter_url", "")
-    if newsletter:
-        alerts_text = "One email when a deal moves on the board. Nothing else."
-        alerts_buttons = (f'<a class="btn btn-gold" href="{esc(newsletter)}" rel="noopener">Sign me up</a>'
-                          f'<a class="btn btn-ghost" href="{ctx.u("feed.xml")}">RSS feed</a>')
-    else:
-        alerts_text = "Follow the RSS feed and every new story and deal alert lands in your reader."
-        alerts_buttons = f'<a class="btn btn-gold" href="{ctx.u("feed.xml")}">Follow by RSS</a>'
-    parts.append(f"""<section id="alerts" class="alerts" aria-labelledby="alerts-title">
+    if has_tip_line(ctx):
+        parts.append(f"""<section id="tips" class="alerts" aria-labelledby="tips-title">
 <div class="wrap alerts-in">
-<div><h2 id="alerts-title" class="h2 h2-sm">Know the moment a school switches</h2><p>{alerts_text}</p></div>
-<div class="alerts-actions">{alerts_buttons}</div>
+<div><h2 id="tips-title" class="h2 h2-sm">Know about a deal before it&rsquo;s announced?</h2><p>Send what you&rsquo;ve heard, with a link if you have one. Every tip gets checked against a source before it goes on the board.</p></div>
+<div class="alerts-actions">{tip_actions(ctx)}</div>
 </div>
 </section>""")
 
@@ -1086,7 +1099,7 @@ def render_post(ctx: Ctx, post: Post) -> str:
         "headline": post.title,
         "description": post.dek,
         "datePublished": post.date.isoformat(),
-        "author": {"@type": "Person", "name": post.author} if post.author else None,
+        "author": {"@type": "Organization", "name": post.author} if post.author else None,
         "publisher": {"@type": "Organization", "name": ctx.title},
         "mainEntityOfPage": ctx.absolute(post.url),
     }
@@ -1166,7 +1179,7 @@ def render_tracker(ctx: Ctx) -> str:
 <tbody>{"".join(tracker_row(ctx, s) for s in schools)}</tbody>
 </table></div>
 <p class="empty" data-tracker-empty hidden>No programs match. Try a different search or filter.</p>
-<p class="fine">Brand shown is the program's main outfitter. A sub-brand, like Jordan, appears in parentheses. Status follows <a href="{ctx.u('about/')}#status">the ladder</a>.</p>
+<p class="fine">Brand shown is the football program's outfitter. Jordan Brand is part of Nike but is listed on its own. Status follows <a href="{ctx.u('about/')}#status">the ladder</a>.</p>
 </div></section>"""
     return layout(ctx, path="tracker/", title="Tracker", description="Every college football program's apparel outfitter, deal end date, and next move, in one sortable table.",
                   body=body, active="tracker")
@@ -1282,6 +1295,8 @@ def render_brand(ctx: Ctx, brand: str) -> str:
     slug = slugify(brand)
     crumbs = f'<a href="{ctx.u("brands/")}">Brands</a> / {esc(brand)}'
     lede = f"{len(now)} program{'s' if len(now) != 1 else ''} now &middot; {len(coming)} incoming &middot; {len(leaving)} leaving"
+    if brand == "Jordan":
+        lede += " &middot; A Nike brand, listed here when a football program wears Jordan"
     body = f"""{page_head("Brand", brand, lede, crumbs)}
 <div class="wrap stack section section-tight">
 <section aria-labelledby="b-now"><h2 id="b-now" class="h3-section">Outfitting now</h2>{mini_table(ctx, now) if now else '<p class="fine">No programs on file.</p>'}</section>
@@ -1335,6 +1350,16 @@ def render_about(ctx: Ctx) -> str:
 <div class="layout-side"><div class="deal-card"><span class="dc-kicker">The ladder</span>{ladder_html("reported")}
 <p class="dc-note">Every deal sits on one rung. This one is at Reported.</p></div></div></div>"""
     return layout(ctx, path="about/", title="About", description=ctx.site.about_description or "About Field Drip.", body=body, active="about")
+
+
+def render_tips(ctx: Ctx) -> str:
+    body = f"""{page_head("Tips", "Send a tip", "Heard about a deal, an extension, or a uniform switch? Send it here.")}
+<div class="wrap layout"><div class="layout-main prose">
+<p>Tips are how the board finds out first. Tell us the school, the brand, and what you heard, and include a link to a story, release, or public record if you have one.</p>
+<p>Nothing goes on the site from a tip alone. Every deal still needs a published source, and a tip with a link gets checked fastest. We don&rsquo;t publish your name or contact details.</p>
+<div class="hero-actions">{tip_actions(ctx, light=True)}</div>
+</div></div>"""
+    return layout(ctx, path="tips/", title="Send a tip", description="Send Field Drip a tip about a college football apparel deal.", body=body, active="")
 
 
 def render_404(ctx: Ctx) -> str:
@@ -1450,6 +1475,8 @@ def main() -> int:
     for brand in site.brands:
         emit(f"brands/{slugify(brand)}/", render_brand, brand)
     emit("about/", render_about)
+    if has_tip_line(ctx):
+        emit("tips/", render_tips)
     emit("404.html", render_404)
     ctx.current = ""
     (out / "feed.xml").write_text(render_feed(ctx), encoding="utf-8")
