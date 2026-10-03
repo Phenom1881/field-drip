@@ -43,6 +43,15 @@ Every post is bylined to the `author` in `data/site.txt` (Field Drip Staff). Add
 
 The easiest way to post from a browser: open the `posts` folder on GitHub, choose **Add file > Create new file**, name it like `2026-10-07-school-brand.md`, paste the block above with your own lines, write the story under it, and choose **Commit changes**. The site rebuilds in about a minute.
 
+**Photos.** Upload the image to `static/img/` (on GitHub: open that folder, **Add file > Upload files**). Then put it in the post on its own line, with an optional caption on the line right under it:
+
+```
+![Ole Miss in Nike, 2025](~/static/img/ole-miss-2025.jpg)
+*Ole Miss wore Nike through the 2026 season. Photo: Your Name*
+```
+
+Keep photos under about 1 MB (an iPhone photo exported at a smaller size is fine), use lowercase names with hyphens, and only post photos you took or have permission to use. Team and press photos usually belong to the school or a news agency.
+
 To link to another page on the site, start the link with `~/`, like `[Ole Miss](~/schools/ole-miss/)`. That keeps links working whether the site lives at `/field-drip/` or on its own domain.
 
 ## Tip line

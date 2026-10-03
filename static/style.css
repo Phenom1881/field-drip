@@ -258,6 +258,9 @@ a.box-tag:hover { border-color: var(--ink); color: var(--ink); }
 .prose li + li { margin-top: 0.4em; }
 .prose blockquote { padding: 14px 0; border-top: 2px dashed var(--stitch); border-bottom: 2px dashed var(--stitch); font-size: 20px; font-style: italic; color: var(--body); }
 .prose blockquote p { margin: 0; }
+.prose img { display: block; width: 100%; height: auto; border-radius: 4px; background-color: var(--panel); }
+.prose p:has(> img) { font-size: 14px; line-height: 1.5; color: var(--body); }
+.prose p:has(> img) img + * , .prose p:has(> img) em { display: block; margin-top: 8px; font-style: normal; }
 .prose table { width: 100%; border-collapse: collapse; font-size: 16px; }
 .prose th, .prose td { padding: 10px 12px 10px 0; border-bottom: 1px solid var(--rule); text-align: left; }
 .prose hr { border: 0; border-top: 2px dashed var(--stitch); }
