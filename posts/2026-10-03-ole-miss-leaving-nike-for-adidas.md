@@ -25,6 +25,8 @@ Those numbers can't all be right, which is why the deal sits at **Reported** on 
 
 Reports also say the deal is expected to include support for athletes' name, image, and likeness opportunities, and that Adidas will work with the Rebels on branding and future uniform designs.
 
+**Update, Oct. 5:** Fox Sports' Ben Portnoy, citing sources familiar with the negotiations, also reports a seven-year deal running from July 1, 2027 through 2034. That lines up with Yahoo Sports' version. Fox says the deal is expected to rival or exceed $20 million a year, with NIL commitments about 10 times larger than Nike's and Adidas money for campus bookstore renovations and premium fan experiences. Ole Miss and Adidas still haven't announced anything, so the status stays at **Reported**.
+
 ## Half of a trade
 
 The timing lines up with a move in the other direction. About two weeks earlier, [Miami](~/schools/miami/) agreed to return to Nike on a 10-year deal reported at more than $200 million, after Adidas's counteroffer fell short. Miami's Adidas contract also expires in June 2027, so on July 1, 2027, the two programs effectively trade brands.
